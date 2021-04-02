@@ -16,7 +16,7 @@ window.onload = function() {
     // return dataPoints1; - remove this line, as the line before it stops it working
   }
 
-  $.get("https://raw.githubusercontent.com/nychealth/coronavirus-data/master/case-hosp-death.csv", function(data) {
+  $.get("https://raw.githubusercontent.com/nychealth/coronavirus-data/master/latest/now-hosp-by-day.csv", function(data) {
     var chart1 = new CanvasJS.Chart("chartContainer", {
       title: {
         text: "NYC COVID-19 DATA",
